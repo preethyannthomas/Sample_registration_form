@@ -1,0 +1,281 @@
+<html>
+<head>
+<title> New Website </title>
+<style>
+	body
+	{
+		body-background:no repeat;
+		background-size:100% 100%;
+		background-attachment: fixed;
+	}
+	.regform
+	{
+		width:800px;
+		background-color:rgb(0,0,0,0.5);
+		margin:auto;
+		color:violet;
+		padding:10px 0px 10px 0px;
+		text-align:center;
+		border-radius: 15px 15px 0 px 0px;
+	}
+
+	.main
+	{
+		background-color:rgb(0,0,0,0.4);
+		width:800px;
+		margin:auto;
+	}
+
+	form { padding:10px; }
+
+	#name{ width:100%; height:100px; }
+
+	.name
+	{
+		margin-left: 25px; 
+		margin-top:30px;
+		width:125px;
+		color:white;
+		font-size:18px;
+		font-weight:700px;
+	}	
+
+	.firstname
+	{
+		position:relative;
+		left:200px;
+		top:-37px;
+		line-height:40px;
+		padding: 0 22px;
+		font-size:16px;
+	}
+
+	.lastname
+	{
+		position:relative;
+		left:417px;
+		top:-80px;
+		line-height:40px;
+		border-radius: 6 px;
+		padding: 0 22px;
+		font-size:16px;
+		color:#555;
+	}
+
+	.firstlabel
+	{
+		position:relative;
+		color:#E5E5E5;
+		text-transform:capitalize;
+		font-size:14px;
+		left: 203px;
+		top:-50px;
+	}
+	.lastlabel
+	{
+		position:relative;
+		color:#E5E5E5;
+		text-transform:capitalize;
+		font-size:14px;
+		left: 173px;
+		top:-50px;
+	}
+
+	.company
+	{
+		position:relative;
+		left:200px;
+		top:-37px;
+		line-height:40px;
+		width:532px;
+		border radius:6px;
+		padding: 0 22px;
+		color:#555;
+	}
+
+	.email
+	{	
+		position:relative;
+		left:200px;
+		top:-37px;
+		line-height:40px;
+		width:532px;
+		border radius:6px;
+		padding: 0 22px;
+		color:#555;
+	
+	}
+
+	.code
+	{
+		position:relative;
+		left:200px;
+		top:-37px;
+		line-height:40px;
+		width:95px;
+		border radius:6px;
+		padding: 0 22px;
+		color:#555;
+	}
+
+	.number
+	{
+		position:relative;
+		left:200px;
+		top:-37px;
+		line-height:40px;
+		width:320px;
+		border radius:6px;
+		padding: 0 22px;
+		color:#555;
+	}
+
+	.area_code
+	{
+		position:relative;
+		color:#E5E5E5;
+		text-transform:capitalize;
+		font-size:16px;
+		left: 95px;
+		top:-4px;	
+	}
+
+	.phone_number
+	{
+		position:relative;
+		color:#E5E5E5;
+		text-transform:capitalize;
+		font-size:16px;
+		left: -124px;
+		top:-2px;
+	}
+	
+	.option
+	{
+		position:relative;
+		left:200px;
+		top:-37px;
+		line-height:40px;
+		width:532px;
+		height:40px;
+		border radius:6px;
+		padding: 0 22px;
+		color:#555;
+		outline:none;
+		overflow:hidden;
+	}
+
+	.option option
+	{
+		font-size:16px;
+	}
+
+	#customer
+	{
+		margin-left:25px;
+		color:white;
+		font-size:18px;
+	}
+
+	.radio
+	{
+		display:online-block;
+		padding-right:70px;
+		font-size:25px;
+		margin-left:25px;
+		margin top:15px;
+		color:white;
+	}
+
+	.radio input
+	{
+		width:20px;
+		height:20px;
+		border-radius:50%;
+		customer:pointer;
+		outline:none;
+	}
+	
+	button
+	{
+		position:relative;
+		left:300px;
+		top:-16px;
+		line-height:40px;
+		padding: 0 22px;
+		font-size:16px;
+		
+		background-color:#3BAF9F;
+		display:block;
+		margin:20px 0px 0px 20px;
+		text-align:center;
+		border radius: 12px;
+		border: 2px solid #366473;
+		<!padding: 14px 110px;-->
+		outline:none;
+		color:white;
+		cursor:pointer;
+		transition:0.25px;
+	}
+
+	button:hover
+	{
+		background-color:#5390F5;
+	}
+
+</style>
+</head>
+<body background =bg.jpg>
+	<div class="regform"> <h1>Registration Form </h1> </div>
+	<div class="main">
+	<form>
+		<div id = "name">
+		<h2 class = "name"> Name <h2>
+		<input class = "firstname" type = "text" name = "first_name"> <br>
+		<label class = "firstlabel"> first name </label>
+		<input class = "lastname" type = "text" name = "last_name"> 
+
+		<label class = "lastlabel"> last name </label>
+		</div>
+		
+		<h2 class = "name"> Company <h2>
+		<input class = "company" type = "text" name = "company"> 
+		
+		<h2 class = "name"> Email <h2>
+		<input class = "email" type = "text" name = "email"> 
+
+		<h2 class = "name"> Phone <h2>
+		<input class = "code" type = "text" name = "area_code"> 
+		<label class = "area_code"> Area Code </label>
+		<input class = "number" type = "text" name = "phone"> 
+		<label class = "phone_number"> Phone Number </label>
+	
+		<h2 class = "name"> Subject</h2>
+		<select class="option" name="subject">
+		<option disabled = "disabled" selected = "selected">--Choose option </option>
+		<option> Internet Concepts and Web Design </option>
+		<option> Introduction to Python </option>
+		<option> Javascript </option>
+		</select>
+
+		<h2 id = "customer">Are you beginner? </h2>
+
+		<label class="radio"> 
+		<input class="radio-one" type = "radio" checked="checked" name ="" >
+		<span class="checkmark"></span>
+		Yes
+		</label>
+
+		<label>
+		<label class="radio"> 
+		<input class="radio-two" type = "radio" name ="" >
+		<span class="checkmark"></span>
+		No
+		</label>
+	
+		<button type="submit"> Register</button>
+
+	</form>
+	</div>
+</body>
+</html>
